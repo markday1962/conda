@@ -58,14 +58,14 @@ xl                       /home/dataupdate/miniconda3/envs/xl
 ## Activate conda environment and install a package
 Once the environment has been created it can be activated as shown below and pip can be used deploy additional packages in the environment
 ```
-source activate aws-metrics
+conda activate aws-metrics
 pip install redis
 ```
 
 ## Deactivate a conda environment
 To leave an environment we just deactivate
 ```
-source deactivate aws-metrics
+conda deactivate aws-metrics
 ```
 
 ## Using an environment with a cron job
